@@ -29,7 +29,9 @@ function App() {
         }
       }
       try {
-        let { data: time_info } = await axios.get("api.simplifycloud.uk/time");
+        let { data: time_info } = await axios.get(
+          "https://api.simplifycloud.uk/time"
+        );
 
         let eastern_time = await convertServerTime(
           time_info.server_epoch_time,
