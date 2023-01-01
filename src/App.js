@@ -5,7 +5,7 @@ import axios from "axios";
 import moment from "moment";
 
 function toHumanReadableDateTimeWithTimeZone(epoch_time, timezone) {
-  const dateTime = moment.unix(epoch_time).format("MMMM Do YYYY, h:mm:ss a");
+  const dateTime = moment.unix(epoch_time).format("MMMM Do YYYY, HH:mm:ss a");
   return `${dateTime} ${timezone}`;
 }
 
