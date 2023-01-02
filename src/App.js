@@ -66,6 +66,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>This is the rc branch</h1>
         <img src={logo} className="App-logo" alt="logo" />
         {/* Check if date and time information has been fetched */}
         {dateTimeInformation ? (
