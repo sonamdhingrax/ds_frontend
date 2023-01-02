@@ -1,6 +1,6 @@
 # Frontend Architecture with AWS Amplify
 
-![Architecture](/Fronted.png?raw=true "Frontend Architecture")
+![Architecture](/Frontend.png?raw=true "Frontend Architecture")
 
 ## Description 
 The frontend was created in `React` and uses API Calls to fetch server time from backend API hosted using API Gateway and AWS Lambda. Another API call is used to convert the time returned by backend to Eastern Standard Time.
